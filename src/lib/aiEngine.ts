@@ -1,5 +1,7 @@
 import type { TimePeriod, AlertStatus } from './supabase';
 
+export type { AlertStatus } from './supabase';
+
 const SAFE_LIMITS: Record<TimePeriod, number> = {
   morning:   60,
   afternoon: 70,
